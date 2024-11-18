@@ -3,22 +3,32 @@
   margin: 0;
   box-sizing: border-box;
 }
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto-Regular.ttf);
+}
+body {
+  font-family: "Roboto";
+}
 header {
-  background-color: bisque;
- 
+  background: #5E5F4C
 }
 .miniheader {
   display: flex;
   justify-content: space-between;
   padding: 10px 250px;
+  color:#ffffff
 }
 .logo {
   display: flex;
+  text-transform: uppercase;
+  font-weight: 800;
 }
 ul {
   display: flex;
   list-style-type: none;
   gap: 16px;
+  align-items: center;
 }
 .headermain {
   padding: 120px 250px;
@@ -26,36 +36,55 @@ ul {
   justify-content: space-between;
 }
 .wrap {
-  
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
 
 }
 .button {
-  background-color: brown;
+  background: #962B25;
   border-radius: 6px;
   width: 110px;
   height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #ffffff;
 }
 .imageblock {
-  background-color: #181c29;
-  padding: 20px 30px;
+  background: #4f4f41;
+  padding: 20px 90px;
   color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+h1 {
+  font-size: 44px;
+  color: #ffffff;
+  font-weight: 800;
+}
+.pp {
+  color: #ffffff;
+  font-weight: 500;
 }
 /* container 1 */
-h2 {
+.container2 {
+  color: #5E5F4C;
+  background-color: #feffe7;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h2 {
   padding: 30px 0 30px 0;
   font-size: 28px;
+  font-weight: 800;
+  color: #4f4f41;
 }
 h3 {
   font-weight: 700;
@@ -64,13 +93,13 @@ h3 {
 .box {
   height: 120px;
   width: 120px;
-  border: 3px solid black;
+  border: 3px solid #1f0e0d;
   border-radius: 10px;
 }
 .boxs {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 40px;
 }
 .texts {
   display: flex;
@@ -88,20 +117,24 @@ h3 {
   justify-content: center;
   align-items: center;
   font-size: 30px;
-  background-color: antiquewhite;
+  background-color: #5E5F4C;
   height: 400px;
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 0.07em;
 }
 /* container3 */
 .container4 {
   height: 330px;
   padding: 80px 150px;
+  background-color: #feffe7;
 }
 .main4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 50px 120px;
-  background-color: blue;
+  background-color: #962B25;
   border-radius: 10px;
   color: #ffffff;
 }
@@ -112,7 +145,7 @@ h3 {
   border-radius: 11px;
 }
 footer { 
-  background-color: #181c29;
+  background-color: #5E5F4C;
   padding: 40px 60px;
 
 }
